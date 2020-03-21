@@ -16,7 +16,7 @@ with open('boss_message.json', 'w') as boss_message:
   boss_message_dict = {'recipient':'The Boss', 'message': 'Mission Sucess'}
   json.dump(boss_message_dict,boss_message)
 
-with open('new_passwords.csv', 'w') as   new_passwords_obj:
+with open('new_passwords.csv', 'w') as new_passwords_obj:
   slash_null_sig = """
  _  _     ___   __  ____             
 / )( \   / __) /  \(_  _)            
